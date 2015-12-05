@@ -1,0 +1,15 @@
+{
+  "name": "lemon-aide-api",
+  "version": "0.0.1",
+  "description": "Mocked app data",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "kamrenz@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
