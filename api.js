@@ -30,7 +30,7 @@ module.exports = function(app) {
                     id: 0,
                     domId: 'largeLemonade',
                     description: 'Large lemonade',
-                    icon: 'ion-happy-outline',
+                    icon: 'ion-happy-outlin',
                     cost: 3
                 }, {
                     id: 1,
