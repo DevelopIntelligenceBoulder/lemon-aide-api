@@ -4,157 +4,391 @@
 //List of transactions
 var transactions = [{
 		time: '2015-01-01',
-		cost: '30.00',
-		quantity: '20'
+		quantity: '600',
+		netSale: '750.00',
+		cost: '400.00'
 	}, {
 		time: '2015-02-01',
-		cost: '25.00',
-		quantity: '18'
+		quantity: '100',
+		netSale: '250.00',
+		cost: '175.00'
 	}, {
 		time: '2015-03-01',
-		cost: '27.00',
-		quantity: '19'
+		quantity: '100',
+		netSale: '250.00',
+		cost: '150.00'
 	}, {
 		time: '2015-04-01',
-		cost: '25.00',
-		quantity: '18'
+		quantity: '425',
+		netSale: '750.00',
+		cost: '400.00'
 	}, {
 		time: '2015-05-01',
-		cost: '23.00',
-		quantity: '17'
+		quantity: '300',
+		netSale: '450.00',
+		cost: '250.00'
 	}, {
 		time: '2015-06-01',
-		cost: '25.00',
-		quantity: '18'
+		quantity: '650',
+		netSale: '850.00',
+		cost: '650.00'
 	}, {
 		time: '2015-07-01',
-		cost: '30.00',
-		quantity: '20'
+		quantity: '100',
+		netSale: '350.00',
+		cost: '250.00'
 	}, {
 		time: '2015-08-01',
-		cost: '32.00',
-		quantity: '21'
+		quantity: '100',
+		netSale: '350.00',
+		cost: '250.00'
 	}, {
 		time: '2015-09-01',
-		cost: '34.00',
-		quantity: '22'
+		quantity: '300',
+		netSale: '450.00',
+		cost: '250.00'
 	}, {
 		time: '2015-10-01',
-		cost: '36.00',
-		quantity: '23'
+		quantity: '300',
+		netSale: '550.00',
+		cost: '350.00'
 	}, {
 		time: '2015-11-01',
-		cost: '38.00',
-		quantity: '24'
+		quantity: '650',
+		netSale: '750.00',
+		cost: '450.00'
 	}, {
 		time: '2015-12-01',
-		cost: '40.00',
-		quantity: '25'
+		quantity: '300',
+		netSale: '450.00',
+		cost: '250.00'
 	}, {
 		time: '2014-01-01',
-		cost: '25.00',
-		quantity: '18'
+		quantity: '650',
+		netSale: '850.00',
+		cost: '650.00'
 	}, {
 		time: '2014-02-01',
-		cost: '23.00',
-		quantity: '17'
+		quantity: '100',
+		netSale: '350.00',
+		cost: '150.00'
 	}, {
 		time: '2014-03-01',
-		cost: '21.00',
-		quantity: '16'
+		quantity: '100',
+		netSale: '250.00',
+		cost: '150.00'
 	}, {
 		time: '2014-04-01',
-		cost: '19.00',
-		quantity: '15'
+		quantity: '500',
+		netSale: '350.00',
+		cost: '250.00'
 	}, {
 		time: '2014-05-01',
-		cost: '40.00',
-		quantity: '25'
+		quantity: '500',
+		netSale: '750.00',
+		cost: '550.00'
 	}, {
 		time: '2014-06-01',
-		cost: '38.00',
-		quantity: '24'
+		quantity: '650',
+		netSale: '850.00',
+		cost: '550.00'
 	}, {
 		time: '2014-07-01',
-		cost: '36.00',
-		quantity: '23'
+		quantity: '300',
+		netSale: '550.00',
+		cost: '350.00'
 	}, {
 		time: '2014-08-01',
-		cost: '34.00',
-		quantity: '22'
+		quantity: '100',
+		netSale: '350.00',
+		cost: '250.00'
 	}, {
 		time: '2014-09-01',
-		cost: '32.00',
-		quantity: '21'
+		quantity: '150',
+		netSale: '450.00',
+		cost: '150.00'
 	}, {
 		time: '2014-10-01',
-		cost: '30.00',
-		quantity: '20'
+		quantity: '500',
+		netSale: '750.00',
+		cost: '400.00'
 	}, {
 		time: '2014-11-01',
-		cost: '28.00',
-		quantity: '19'
+		quantity: '425',
+		netSale: '650.00',
+		cost: '300.00'
 	}, {
 		time: '2014-12-01',
-		cost: '26.00',
-		quantity: '18'
+		quantity: '300',
+		netSale: '450.00',
+		cost: '300.00'
 	}, {
 		time: '2013-01-01',
-		cost: '24.00',
-		quantity: '17'
+		quantity: '600',
+		netSale: '750.00',
+		cost: '400.00'
 	}, {
 		time: '2013-02-01',
-		cost: '22.00',
-		quantity: '16'
+		quantity: '100',
+		netSale: '250.00',
+		cost: '175.00'
 	}, {
 		time: '2013-03-01',
-		cost: '20.00',
-		quantity: '15'
+		quantity: '100',
+		netSale: '250.00',
+		cost: '150.00'
 	}, {
 		time: '2013-04-01',
-		cost: '40.00',
-		quantity: '25'
+		quantity: '425',
+		netSale: '750.00',
+		cost: '400.00'
 	}, {
 		time: '2013-05-01',
-		cost: '38.00',
-		quantity: '24'
+		quantity: '300',
+		netSale: '450.00',
+		cost: '250.00'
 	}, {
 		time: '2013-06-01',
-		cost: '36.00',
-		quantity: '22'
+		quantity: '650',
+		netSale: '850.00',
+		cost: '650.00'
 	}, {
 		time: '2013-07-01',
-		cost: '34.00',
-		quantity: '21'
+		quantity: '100',
+		netSale: '350.00',
+		cost: '250.00'
 	}, {
 		time: '2013-06-01',
-		cost: '32.00',
-		quantity: '20'
+		quantity: '100',
+		netSale: '350.00',
+		cost: '250.00'
 	}, {
 		time: '2013-07-01',
-		cost: '30.00',
-		quantity: '19'
+		quantity: '300',
+		netSale: '450.00',
+		cost: '250.00'
 	}, {
 		time: '2013-08-01',
-		cost: '28.00',
-		quantity: '18'
+		quantity: '300',
+		netSale: '550.00',
+		cost: '350.00'
 	}, {
 		time: '2013-09-01',
-		cost: '26.00',
-		quantity: '17'
+		quantity: '650',
+		netSale: '750.00',
+		cost: '450.00'
 	}, {
 		time: '2013-10-01',
-		cost: '24.00',
-		quantity: '16'
+		quantity: '300',
+		netSale: '450.00',
+		cost: '250.00'
 	}, {
 		time: '2013-11-01',
-		cost: '22.00',
-		quantity: '15'
+		quantity: '650',
+		netSale: '850.00',
+		cost: '650.00'
 	}, {
 		time: '2013-12-01',
-		cost: '20.00',
-		quantity: '14'
+		quantity: '100',
+		netSale: '350.00',
+		cost: '150.00'
 	}];
+
+/**
+ * Transactions Model.
+ **/
+//List of transactions
+var moreTransactions = [{
+	time: '2012-01-01',
+	quantity: '600',
+	netSale: '750.00',
+	cost: '400.00'
+}, {
+	time: '2012-02-01',
+	quantity: '100',
+	netSale: '250.00',
+	cost: '175.00'
+}, {
+	time: '2012-03-01',
+	quantity: '100',
+	netSale: '250.00',
+	cost: '150.00'
+}, {
+	time: '2012-04-01',
+	quantity: '425',
+	netSale: '750.00',
+	cost: '400.00'
+}, {
+	time: '2012-05-01',
+	quantity: '300',
+	netSale: '450.00',
+	cost: '250.00'
+}, {
+	time: '2012-06-01',
+	quantity: '650',
+	netSale: '850.00',
+	cost: '650.00'
+}, {
+	time: '2012-07-01',
+	quantity: '100',
+	netSale: '350.00',
+	cost: '250.00'
+}, {
+	time: '2012-08-01',
+	quantity: '100',
+	netSale: '350.00',
+	cost: '250.00'
+}, {
+	time: '2012-09-01',
+	quantity: '300',
+	netSale: '450.00',
+	cost: '250.00'
+}, {
+	time: '2012-10-01',
+	quantity: '300',
+	netSale: '550.00',
+	cost: '350.00'
+}, {
+	time: '2012-11-01',
+	quantity: '650',
+	netSale: '750.00',
+	cost: '450.00'
+}, {
+	time: '2012-12-01',
+	quantity: '300',
+	netSale: '450.00',
+	cost: '250.00'
+}, {
+	time: '2011-01-01',
+	quantity: '650',
+	netSale: '850.00',
+	cost: '650.00'
+}, {
+	time: '2011-02-01',
+	quantity: '100',
+	netSale: '350.00',
+	cost: '150.00'
+}, {
+	time: '2011-03-01',
+	quantity: '100',
+	netSale: '250.00',
+	cost: '150.00'
+}, {
+	time: '2011-04-01',
+	quantity: '500',
+	netSale: '350.00',
+	cost: '250.00'
+}, {
+	time: '2011-05-01',
+	quantity: '500',
+	netSale: '750.00',
+	cost: '550.00'
+}, {
+	time: '2011-06-01',
+	quantity: '650',
+	netSale: '850.00',
+	cost: '550.00'
+}, {
+	time: '2011-07-01',
+	quantity: '300',
+	netSale: '550.00',
+	cost: '350.00'
+}, {
+	time: '2011-08-01',
+	quantity: '100',
+	netSale: '350.00',
+	cost: '250.00'
+}, {
+	time: '2011-09-01',
+	quantity: '150',
+	netSale: '450.00',
+	cost: '150.00'
+}, {
+	time: '2011-10-01',
+	quantity: '500',
+	netSale: '750.00',
+	cost: '400.00'
+}, {
+	time: '2011-11-01',
+	quantity: '425',
+	netSale: '650.00',
+	cost: '300.00'
+}, {
+	time: '2011-12-01',
+	quantity: '300',
+	netSale: '450.00',
+	cost: '300.00'
+}, {
+	time: '2010-01-01',
+	quantity: '600',
+	netSale: '750.00',
+	cost: '400.00'
+}, {
+	time: '2010-02-01',
+	quantity: '100',
+	netSale: '250.00',
+	cost: '175.00'
+}, {
+	time: '2010-03-01',
+	quantity: '100',
+	netSale: '250.00',
+	cost: '150.00'
+}, {
+	time: '2010-04-01',
+	quantity: '425',
+	netSale: '750.00',
+	cost: '400.00'
+}, {
+	time: '2010-05-01',
+	quantity: '300',
+	netSale: '450.00',
+	cost: '250.00'
+}, {
+	time: '2010-06-01',
+	quantity: '650',
+	netSale: '850.00',
+	cost: '650.00'
+}, {
+	time: '2010-07-01',
+	quantity: '100',
+	netSale: '350.00',
+	cost: '250.00'
+}, {
+	time: '2010-06-01',
+	quantity: '100',
+	netSale: '350.00',
+	cost: '250.00'
+}, {
+	time: '2010-07-01',
+	quantity: '300',
+	netSale: '450.00',
+	cost: '250.00'
+}, {
+	time: '2010-08-01',
+	quantity: '300',
+	netSale: '550.00',
+	cost: '350.00'
+}, {
+	time: '2010-09-01',
+	quantity: '650',
+	netSale: '750.00',
+	cost: '450.00'
+}, {
+	time: '2010-10-01',
+	quantity: '300',
+	netSale: '450.00',
+	cost: '250.00'
+}, {
+	time: '2010-11-01',
+	quantity: '650',
+	netSale: '850.00',
+	cost: '650.00'
+}, {
+	time: '2010-12-01',
+	quantity: '100',
+	netSale: '350.00',
+	cost: '150.00'
+}];
 
 /**
  * Gets all transactions.
@@ -163,4 +397,12 @@ var transactions = [{
 exports.getTransactions = function() {
 	return transactions;
 };
+
+/**
+ * Get more transactions.
+ * @returns all the transactions
+ **/
+exports.getMoreTransactions = function() {
+	return moreTransactions;
+}
 
