@@ -58,6 +58,15 @@ module.exports = function(app) {
 
     });
 
+    app.get('/data/transations/:id',
+        function(req, res) {
+            console.log('individual transaction');
+            var id = Number(req.params.id);
+
+            res.json(transaction.getTransaction(id));
+        }
+    );
+
     // Get all the transactions.
     app.get('/data/transactions',
         function(req, res) {

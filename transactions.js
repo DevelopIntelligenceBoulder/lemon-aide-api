@@ -1,5 +1,16 @@
-/** 
- * Transactions Model.
+/**
+ * Transaction.
+ */
+var transaction = {
+	id: 0,
+	time: '2015-01-01',
+	quantity: '600',
+	netSale: '750.00',
+	cost: '400.00'
+};
+
+/**
+ * List of transaction.
  **/
 //List of transactions
 var transactions = [{
@@ -233,7 +244,7 @@ var transactions = [{
 	}];
 
 /**
- * Transactions Model.
+ * List of more transactions model.
  **/
 //List of transactions
 var moreTransactions = [{
@@ -480,5 +491,13 @@ exports.getTransactions = function() {
  **/
 exports.getMoreTransactions = function() {
 	return moreTransactions;
+}
+
+/**
+ * Get more transactions.
+ * @returns all the transactions
+ **/
+exports.getTransaction = function(id) {
+	return transaction;
 }
 
