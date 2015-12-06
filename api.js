@@ -66,6 +66,14 @@ module.exports = function(app) {
             res.json(transaction.getTransactions());
     });
 
+    // Get all the transactions.
+    app.get('/data/moretransactions',
+        function(req, res) {
+            console.log('list of moretransactions');
+
+            res.json(transaction.getMoreTransactions());
+    });
+
 };
 
 
