@@ -58,7 +58,7 @@ module.exports = function(app) {
 
     });
 
-    app.get('/data/transations/:id',
+    app.get('/data/transactions/:id',
         function(req, res) {
             console.log('individual transaction');
             var id = Number(req.params.id);
