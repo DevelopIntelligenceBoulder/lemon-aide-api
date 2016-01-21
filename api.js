@@ -4,7 +4,7 @@ module.exports = function(app) {
     //Transaction Model
     var transaction = require('./transactions.js');
     //Report Model
-    var report = require('/reports.js');
+    var report = require('./reports.js');
 
     // Get product costs
     app.get('/data/product/costs',
