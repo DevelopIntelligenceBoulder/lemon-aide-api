@@ -13,8 +13,8 @@
   "author": "kamrenz@gmail.com",
   "license": "ISC",
   "engines": {
-    "node": ">=0.12.6 <0.13",
-    "npm": "~2.9.1"
+    "node": "5.1.1",
+    "npm": "3.3.12"
   },
   "dependencies": {
     "express": "^4.13.3"
