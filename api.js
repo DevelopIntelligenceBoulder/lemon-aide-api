@@ -1,8 +1,10 @@
 //REST Demo APIs
 module.exports = function(app) {
     
-    //Our Transaction Model
+    //Transaction Model
     var transaction = require('./transactions.js');
+    //Report Model
+    var report = require('/reports.js');
 
     // Get product costs
     app.get('/data/product/costs',
@@ -81,6 +83,13 @@ module.exports = function(app) {
             console.log('list of moretransactions');
 
             res.json(transaction.getMoreTransactions());
+    });
+
+    app.get('/data/reports',
+        function(req, res) {
+            console.log('list of reports');
+
+            res.json(report.getReports());
     });
 
 };

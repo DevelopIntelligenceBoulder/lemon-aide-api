@@ -1,7 +1,6 @@
 /**
  * List of transaction.
  **/
-//List of transactions
 var transactions = [{
 	    id: 0,
 		time: '2015-01-01',
