@@ -1,6 +1,6 @@
 {
   "name": "lemon-aide-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Mocked app data",
   "main": "server.js",
   "scripts": {
