@@ -9,6 +9,10 @@
   },
   "author": "kamrenz@gmail.com",
   "license": "ISC",
+  "engines": {
+    "node": "5.1.1",
+    "npm": "3.3.12"
+  },
   "dependencies": {
     "express": "^4.13.3"
   }
